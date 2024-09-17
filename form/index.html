@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario-teste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div>
+        <form action="cadastro.php" method="post" autocomplete="off">
+            <p><label for="inome">nome:</label></p>
+            <input type="text" name="nome" id="inome" required = "required">
+            <p><label for="isobrenome">sobrenome:</label></p>
+            <input type="text" name="sobrenome" id="isobrenome">
+            <p><label for="icomentario">comentario:</label></p>
+            <input type="text" name="comentario" id="icomentario" ><br>
+            <p>onde mora:</p>
+            <input type="radio" value="C" id="imora"> <label for="imora">cidade</label><br>
+            <input type="radio" value="C" id="imora2"> <label for="imora2">interior</label><br>
+            <input type="radio" value="C" id="imora3"> <label for="imora3">outros</label><br>
+            <p>nao sei mais o que perguntar</p>
+            <input type="checkbox" id="ia"> <label for="ia">A</label><br>
+            <input type="checkbox" id="ib"> <label for="ib">b</label><br>
+            <input type="checkbox" id="ic"> <label for="ic">c</label><br>
+            <input type="checkbox" id="id"> <label for="id">d</label><br>
+            <label for="">times:</label>
+            <select name="" id="">
+
+                <option value="">PALMEIRAS</option>
+                <option value="">SANTOS</option>
+                <option value="">SÃO PAULO</option>
+                <option value="">PELOTAS</option>
+
+            </select>
+            <input type="range"> 100
+            <textarea name="" id=""></textarea>
+            <input type="submit" value="enviar">
+        </form>
+    </div>
+</body>
+</html>
