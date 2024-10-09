@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Georgian:wght@100..900&display=swap');
+
+*
+{
+
+    margin: 0px;
+    padding: 0px;
+    font: normal normal 1em var(--font1);
+
+}
+
+::-webkit-scrollbar
+{
+
+    height: 0px;
+    width: 0px;
+
+}
+
+:root
+{
+
+    --cor1: #295A40;
+    --cor2: #88DAAE;
+    --cor3: #268552;
+    --cor4: #C9FFE2;
+    --font1: "Noto Sans Georgian";
+    
+
+}
+
+
+html, body
+{
+
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--cor2);
+    color: white;
+
+}
+
+header
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor1);
+    color: white;
+    height: 7vh;
+
+}
+
+header > h1 
+{
+
+    font-size: 3vw;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+nav
+{
+
+    display: flex;
+    align-items: center;
+    background-color: var(--cor3);
+    height: 4vh;
+
+}
+
+a 
+{
+
+    margin-left: 1rem;
+    padding: 2px 10px;
+ 
+}
+
+main
+{
+
+    width: 50vw;
+    margin: auto;
+    height: 100vh;
+
+}
+
+img, p 
+{
+
+    margin: 1rem;
+
+}
+
+.escale
+{
+
+    width: 50vw;
+
+}
+
+img
+{
+
+    width: 10vw;
+
+}
+
+.mapa
+{
+
+    margin: 0.2rem;
+    width: 15vw;
+
+}
+

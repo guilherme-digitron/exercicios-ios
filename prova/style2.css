@@ -1,0 +1,26 @@
+.nav1{background-color: aqua; color: rgb(77, 165, 136);}
+
+.nav1 > h1
+{
+
+    font-size: 100px;
+
+}
+
+.nav2{background-color: rgb(118, 119, 119); color: rgb(102, 102, 102) ;}
+
+.nav2 > h1
+{
+
+    font-size: 100px;
+
+}
+
+.nav3 > h1
+{
+
+    font-size: 100px;
+
+}
+
+.nav3{background-color: rgb(180, 255, 193); color: rgb(103, 150, 111);}

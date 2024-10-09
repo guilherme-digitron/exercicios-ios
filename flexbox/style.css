@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+*
+{
+
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+
+}
+
+html, body
+{
+
+    height: 100dvh;
+    width: 100dvw;
+
+}
+
+.section
+{
+
+    display: flex;
+    flex-direction: column-reverse;
+    width: 20dvw;
+    margin: auto;
+    border: 1px solid black;
+
+}
+
+.item
+{
+
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    font-size: 2em;
+    margin: 1rem;
+    text-align: center;
+
+}
+
+.menu
+{
+
+    background-color: #006437;
+    color: white;
+
+}
+
+.lista
+{
+
+    display: flex;
+    align-items: center;
+
+}
+
+li
+{
+
+    list-style-type: none;
+    margin-left: 1rem;
+
+}
